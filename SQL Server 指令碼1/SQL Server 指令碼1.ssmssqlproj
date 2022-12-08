@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server 指令碼1">
+  <Items>
+    <LogicalFolder Name="連線" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MCSDD-27:VIEW\c50109">
+          <Created>2022-11-10T15:13:04.5205472+08:00</Created>
+          <Type>SQL</Type>
+          <Server>MCSDD-27</Server>
+          <UserName />
+          <Authentication>Windows 驗證</Authentication>
+          <InitialDB>教務系統</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查詢" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 Select_innerjoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 Select_innerjoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08Select_innerJoin2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08Select_innerJoin2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09Select_outerjoin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09Select_outerjoin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10Select_outerjoin2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10Select_outerjoin2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11Select_set.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11Select_set.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12Select_SubQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12Select_SubQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13Select-Others.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13Select-Others.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14CTE查詢.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14CTE查詢.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15Insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15Insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17Delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17Delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Homework_Q1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Homework_Q1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="merge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>merge.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="其他" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
