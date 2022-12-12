@@ -121,17 +121,29 @@
           <AssociatedConnUserName />
           <FullPath>17Delete.sql</FullPath>
         </FileNode>
+        <FileNode Name="18merge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18merge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19DDL_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19DDL_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20DDL_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20DDL_2.sql</FullPath>
+        </FileNode>
         <FileNode Name="Homework_Q1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Homework_Q1.sql</FullPath>
-        </FileNode>
-        <FileNode Name="merge.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>merge.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
