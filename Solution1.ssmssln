@@ -5,13 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server 指令碼1", "SQL Server 指令碼1\SQL Server 指令碼1.ssmssqlproj", "{3FAC344B-5BA1-45CC-9B4F-07971E380DAD}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server 期末專案", "SQL Server 期末專案\SQL Server 期末專案.ssmssqlproj", "{52935806-997E-4840-8E99-85CC9645C6DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE306274-CDAD-4255-8607-EA21FC5C7BFD}.Default|Default.ActiveCfg = Default
 		{3FAC344B-5BA1-45CC-9B4F-07971E380DAD}.Default|Default.ActiveCfg = Default
+		{D089C9CE-03C9-40F7-9556-AA4FCA0D346B}.Default|Default.ActiveCfg = Default
+		{52935806-997E-4840-8E99-85CC9645C6DF}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

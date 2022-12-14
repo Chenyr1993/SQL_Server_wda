@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="MCSDD-27:VIEW\c50109">
+        <ConnectionNode Name="MCSDD-27:VIEW\C50109">
           <Created>2022-11-10T15:13:04.5205472+08:00</Created>
           <Type>SQL</Type>
           <Server>MCSDD-27</Server>
@@ -138,6 +138,18 @@
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>20DDL_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21DDL_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21DDL_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22DDL_4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22DDL_4.sql</FullPath>
         </FileNode>
         <FileNode Name="Homework_Q1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
