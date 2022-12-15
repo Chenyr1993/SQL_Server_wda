@@ -31,5 +31,5 @@ alter table Member
  alter table Member
  add foreign key (MAdressId)references M_Address(MAdressId)on delete cascade on update cascade
  go
-exec sp_rename 'Project.Member.MAdressId','MAddressId'
+exec sp_rename 'Member.MAdressId','MAddressId'
  go
