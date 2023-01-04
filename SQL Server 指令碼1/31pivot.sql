@@ -1,3 +1,4 @@
+--樞紐分析表
 --先寫原始資料select
 --pivot(聚合函數 for)as 別名;
 
@@ -58,3 +59,33 @@ select 課程編號
 from 課程
 
 exec(@sql)
+--將程式碼儲存成預存程序
+create proc CoursePivot
+as
+begin
+
+declare @select_cols nvarchar(max)
+declare @sql nvarchar(max)
+
+select @select_cols = isnull(@select_cols+',['+課程編號+']','['+課程編號+']')
+from 課程
+print @select_cols
+
+set @sql= 'select r.姓名,'+@select_cols+
+'from
+(select 學生.姓名,班級.課程編號,班級.教室
+from 班級 inner join 學生
+on 班級.學號=學生.學號) as t1
+pivot(
+max(教室)
+for 課程編號 in ('+@select_cols+')
+)as r'
+
+select 課程編號
+from 課程
+
+exec(@sql)
+
+end
+---取用CoursePivot
+exec CoursePivot

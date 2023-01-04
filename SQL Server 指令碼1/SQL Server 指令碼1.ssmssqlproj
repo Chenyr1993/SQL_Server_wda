@@ -205,11 +205,35 @@
           <AssociatedConnUserName />
           <FullPath>31pivot.sql</FullPath>
         </FileNode>
+        <FileNode Name="32Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33Function_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>33Function_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="34Function_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>34Function_3.sql</FullPath>
+        </FileNode>
         <FileNode Name="Homework_Q1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Homework_Q1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Homework_Q2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Homework_Q2.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
