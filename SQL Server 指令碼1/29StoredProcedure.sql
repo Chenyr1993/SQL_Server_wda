@@ -47,4 +47,4 @@ begin
 							group by 學生.學號, 學生.姓名
 end
 --執行篩學學生
-exec queryStudentsCourse '令狐沖'
+exec queryStudentsCourse '陳會安'

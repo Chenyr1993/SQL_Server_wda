@@ -54,11 +54,17 @@ pivot(
 max(教室)
 for 課程編號 in ('+@select_cols+')
 )as r'
+print @sql
 
 select 課程編號
 from 課程
 
-exec(@sql)
+--exec(@sql)
+
+
+
+
+
 --將程式碼儲存成預存程序
 create proc CoursePivot
 as
@@ -66,7 +72,7 @@ begin
 
 declare @select_cols nvarchar(max)
 declare @sql nvarchar(max)
-
+--為了不要讓前後多一個,所以判斷前後是否有資料
 select @select_cols = isnull(@select_cols+',['+課程編號+']','['+課程編號+']')
 from 課程
 print @select_cols

@@ -223,6 +223,18 @@
           <AssociatedConnUserName />
           <FullPath>34Function_3.sql</FullPath>
         </FileNode>
+        <FileNode Name="35Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>35Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="36Trigger_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>36Trigger_2.sql</FullPath>
+        </FileNode>
         <FileNode Name="Homework_Q1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
@@ -234,6 +246,12 @@
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Homework_Q2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Homework_Q2_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Homework_Q2_2.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

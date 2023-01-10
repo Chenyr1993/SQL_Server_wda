@@ -8,10 +8,12 @@ where HireDate >= '1993-01-01'
 
 --一(一)3.
 select* from Orders
-where ShipCity='Reims'or ShipCity='Lander' or ShipCity='Madrid'
+--where ShipCity='Reims'or ShipCity='Lander' or ShipCity='Madrid'
+where ShipCity in('Reims','Lander','Madrid')
 order by ShipCity
 
 --一(一)4.
+--因為6,7筆同樣數量，所以要記得加with ties
 select top 6  with ties*
 from Products
 order by UnitsInStock desc
@@ -32,12 +34,12 @@ order by City
 --一(一)8.
 select* from OrderDetails
 where Quantity Between 20 and 40
-order by Quantity
+
 
 --一(二)1.
-select ProductID,CategoryID,AVG(UnitPrice) as 平均單價  from Products
+select AVG(UnitPrice) as 平均單價  from Products
 where CategoryID=2
-group by ProductID, CategoryID
+
 
 --一(二)2.
 select * from Products
@@ -46,7 +48,7 @@ where UnitsInStock<=ReorderLevel and UnitsOnOrder=0 and Discontinued=0
 --一(二)3.
 select OrderID ,count(*) as 包含商品數 from OrderDetails
 group by OrderID 
-having count(*)>5
+having count(*)>=5
 
 --一(二)4.
 select *,UnitPrice*Quantity*(1-Discount) as 小計 from OrderDetails
@@ -62,10 +64,10 @@ group by CustomerID,EmployeeID
 
 --一(二)7.因為表單上已經有單價及數量，直接平均即可
 
-select ProductID,AVG(UnitPrice) as 平均單價, AVG(ProductID) as 平均銷售數量 
+select ProductID,AVG(UnitPrice) as 平均單價, AVG(Quantity) as 平均銷售數量 
 from OrderDetails
 group by ProductID
-having AVG(ProductID)>10
+having AVG(Quantity)>10
 order by ProductID
 
 --二1.
@@ -90,9 +92,7 @@ on o.EmployeeID=e.EmployeeID
 inner join Suppliers as s
 on p.SupplierID=s.SupplierID
 where (o.OrderDate between '1996-07-01' and '1996-07-31') and sh.CompanyName='United Package'
-group by o.OrderID ,cg.CategoryName ,p.ProductName ,od.UnitPrice,od.Quantity,
-o.CustomerID,o.ShipName ,c.ContactName,od.Discount,e.FirstName,e.LastName,
-o.OrderDate,sh.CompanyName,s.CompanyName 
+ 
 
 --二2.
 Select * from Orders
@@ -124,12 +124,13 @@ where not exists (select* from Orders where Customers.CustomerID=Orders.Customer
 select Employees.EmployeeID,(Employees.FirstName+','+Employees.LastName) as Name,Employees.Title,Employees.Extension,Employees.Notes  
 from Employees
 where EmployeeID
-in(select EmployeeID  from Orders) 
+in(select distinct EmployeeID  from Orders) 
 
 --二5.
 select*from Orders
 --合併查詢
-select p.ProductID,p.ProductName,p.QuantityPerUnit,p.UnitPrice,p.UnitsInStock,p.UnitsOnOrder,p.CategoryID,p.Discontinued,p.SupplierID,p.ReorderLevel,SUM(od.Quantity) as Quanity
+--寫法一
+select  p.ProductID,p.ProductName,p.QuantityPerUnit,p.UnitPrice,p.UnitsInStock,p.UnitsOnOrder,p.CategoryID,p.Discontinued,p.SupplierID,p.ReorderLevel,SUM(od.Quantity) as Quanity
 from Products as p
 left outer join OrderDetails as od
 on p.ProductID=od.ProductID
@@ -139,8 +140,19 @@ where (o.OrderDate between '1998-01-01' and '1998-12-31')
 group by p.ProductID,p.ProductName,p.QuantityPerUnit,p.UnitPrice,p.UnitsInStock,p.UnitsOnOrder,p.CategoryID,p.Discontinued,p.SupplierID,p.ReorderLevel
 order by p.ProductID
 
---子查詢(記得要把所有資料表拉關聯！！！)
+--寫法二
+select distinct p.*
+from Products as p
+inner join OrderDetails as od
+on p.ProductID=od.ProductID
+inner join Orders as o
+on od.OrderID=o.OrderID
+where (o.OrderDate between '1998-01-01' and '1998-12-31') 
+order by p.ProductID
 
+
+--子查詢(記得要把所有資料表拉關聯！！！)
+--寫法一
 select *
 from Products 
 where exists (select * from OrderDetails 
@@ -149,6 +161,7 @@ where OrderDate between '1998-01-01' and '1998-12-31'
 and OrderDetails.OrderID=Orders.OrderID 
 and Products.ProductID=OrderDetails.ProductID) )
 
+--寫法二
 select *
 from Products 
 where ProductID in (select ProductID from OrderDetails 
