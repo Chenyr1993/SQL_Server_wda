@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="MCSDD-27:VIEW\C50109">
+        <ConnectionNode Name="MCSDD-27:VIEW\c50109">
           <Created>2022-12-14T15:12:10.5902612+08:00</Created>
           <Type>SQL</Type>
           <Server>MCSDD-27</Server>
@@ -19,17 +19,41 @@
     </LogicalFolder>
     <LogicalFolder Name="查詢" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="Member.sql">
+        <FileNode Name="createTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Member.sql</FullPath>
+          <FullPath>createTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="newDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>newDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="newDB_V2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>newDB_V2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="newDB_V3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>newDB_V3.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="MCSDD-27:VIEW\C50109">
+        <ConnectionNode Name="MCSDD-27:VIEW\c50109">
           <Created>2022-11-10T15:13:04.5205472+08:00</Created>
           <Type>SQL</Type>
           <Server>MCSDD-27</Server>
@@ -235,23 +235,59 @@
           <AssociatedConnUserName />
           <FullPath>36Trigger_2.sql</FullPath>
         </FileNode>
+        <FileNode Name="37Trigger_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>37Trigger_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="38Trigger_4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>38Trigger_4.sql</FullPath>
+        </FileNode>
         <FileNode Name="Homework_Q1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Homework_Q1.sql</FullPath>
         </FileNode>
-        <FileNode Name="Homework_Q2.sql">
+        <FileNode Name="Homework_Q3.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Homework_Q2.sql</FullPath>
+          <FullPath>Homework_Q3.sql</FullPath>
         </FileNode>
-        <FileNode Name="Homework_Q2_2.sql">
+        <FileNode Name="Homework_Q3_1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Homework_Q2_2.sql</FullPath>
+          <FullPath>Homework_Q3_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Homework_Q3_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Homework_Q3_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HWT_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HWT_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MCSDD-27:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MCSDD-27</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

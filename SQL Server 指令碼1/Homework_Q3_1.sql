@@ -100,7 +100,7 @@ GROUP BY   Products.ProductID, Products.ProductName, Orders.OrderDate
 --				order by ProductID
 
 
-
+go
 ---加入預存程序
 create proc Sum_for_Products_Salse_Pivot
 @year nvarchar(4)

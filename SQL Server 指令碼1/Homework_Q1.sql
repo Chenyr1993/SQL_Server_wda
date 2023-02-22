@@ -178,7 +178,7 @@ use HW2DDL
 go
 create table 學生資料表(
 
-學號 char(10) not null primary key,
+學號 char(10)  primary key,
 姓名 nvarchar(20) not null,
 電話 varchar(20) not null,
 地址 nvarchar(100) not null,
@@ -187,20 +187,20 @@ create table 學生資料表(
 go
 
 create table 課程資料表(
-課程代碼 char(6) not null primary key, 
+課程代碼 char(6) primary key, 
 課程名稱 nvarchar(30) not null,
 學分數 int not null default 3
 )
 go
 --三3
 create table 訂單資料表(
-訂單代號 char(10) not null primary key,
+訂單代號 char(10) primary key,
 訂購日期 datetime not null
 )
 go
 
 create table 產品(
-產品編號 char(6)not null primary key,
+產品編號 char(6) primary key,
 產品名稱 nvarchar(50) not null
 )
 go
